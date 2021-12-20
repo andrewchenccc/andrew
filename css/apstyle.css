@@ -360,3 +360,54 @@ margin:-7px 0 -10px 10px;
     -webkit-animation-delay: 8s;
             animation-delay: 8s;
 }
+
+/* Content
+----------------------------------------------- */
+html body .content-outer {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.body-fauxcolumn-outer .cap-top {
+  position: absolute;
+  z-index: 1;
+
+  height: 276px;
+  width: 100%;
+
+/* Columns
+----------------------------------------------- */
+.content-inner {
+  padding: 0;
+}
+
+.header-inner .section {
+  margin: 0 16px;
+}
+
+.tabs-inner .section {
+  margin: 0 16px;
+}
+
+#layout .main-inner .column-center-inner {
+  margin-top: 0;
+}
+
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+	
+#layout .tabs-outer {
+  overflow: visible;
+}
+
+.tabs-cap-top, .tabs-cap-bottom {
+  position: absolute;
+  width: 100%;
+
+	
