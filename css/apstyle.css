@@ -273,7 +273,7 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
             img.initial,
 			img.loaded,
 			img.error {
-				opacity: 1;
+				opacity: 0;
 			} 
 		.articleindex
 		{
