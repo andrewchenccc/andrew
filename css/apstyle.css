@@ -410,4 +410,152 @@ html body .content-outer {
   position: absolute;
   width: 100%;
 
+/* Widgets
+----------------------------------------------- 430修正讓小工具間格變小原27px*/
+.main-inner .section {
+  margin: 0 10px;
+  padding:0;
+}
+#layout .main-inner .column-left-outer,
+#layout .main-inner .column-right-outer {
+  margin-top: 0;
+}
+.main-inner .widget #ArchiveList ul li {
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.main-inner .widget ul li:first-child, .main-inner .widget #ArchiveList ul.flat li:first-child {
+  border-top: none;
+}
+
+.main-inner .widget ul li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child {
+  border-bottom: none;
+}
+
+.post-body {
+  position: relative;
+  font-family: Meiryo, "微軟正黑體", "Microsoft JhengHei";
+  line-height: 1.8em !important;
+font-size:1.2em;<!--website fontsize -->
+
+}
+
+
+.main-inner .widget .post-body ul {
+  padding: 0 2.5em;
+  margin: .5em 0;
+
+  list-style: disc;
+}
+/* Posts
+----------------------------------------------- */
+body .main-inner .Blog {
+  padding: 0;
+  margin-bottom: 1em;
+
+  background-color: transparent;
+  border: none;
+
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+}
+
+.main-inner .section:last-child .Blog:last-child {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
 	
+	
+	
+#hppic a img {
+		border: none;
+	}
+	#hppic {
+		position: relative;
+		width: 1024px;
+		height: 579px;
+		margin:50px 0 0 30px;
+        overflow:hidden;
+	}
+	#hppic a.hppiclink {
+		position: absolute;
+	}
+	#hppic .control {
+		position: absolute;
+		right: 45%;
+		bottom: 10px;
+	}
+	#hppic .control a {
+		display: inline-block;
+		padding: 3px;
+		margin: 0 3px;
+		width: 16px;
+		color: #fff;
+		text-align: center;
+		font-size: 14px;
+		text-decoration: none;
+                background-color: rgba(0, 114,227, 0.5);
+	}
+	#hppic .control a.on {
+		font-weight: bold;
+		color: #FFD306;
+	}
+	
+#abgneBlock {
+		width: 370px;
+		height: 90px;
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock ul.list {
+		padding: 0 !important;
+		margin: 0 !important;
+		list-style: none;
+		position: absolute;
+		width: 1200px;
+		height: 100%;
+	}
+	#abgneBlock ul.list li {
+		float: left;
+		width: 370px;
+		height: 100%;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock .list img{
+		width: 98%;
+		height: 98%;
+		border: 0px;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock ul.playerControl {
+		padding: 0 !important;
+		margin: 0 !important;
+		list-style: none;
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+		height: 14px;
+	}
+	#abgneBlock ul.playerControl li {
+		float: left;
+		width: 0px;
+		height: 0px;
+		cursor: pointer;
+		padding: 0 !important;
+		margin: 0 !important;
+		background: url() no-repeat -10px 0;
+	}
+	#abgneBlock ul.playerControl li.current { 
+		background-position: 0 0;
+	}
+	
+
