@@ -381,6 +381,8 @@ html body .content-outer {
 #layout .main-inner .column-center-inner {
   margin-top: 0;
 }
+.main-inner
+{padding-top:5px;}	
 
 /* Header
 ----------------------------------------------- */
