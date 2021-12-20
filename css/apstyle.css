@@ -382,7 +382,7 @@ html body .content-outer {
   margin-top: 0;
 }
 .main-inner
-{padding-top:5px;}	
+{padding-top:5px; !important;}	
 
 /* Header
 ----------------------------------------------- */
