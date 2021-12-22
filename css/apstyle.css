@@ -287,10 +287,24 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 {max-width:100%}
 
 .main-inner
-{padding-top:5px; !important;}	
+{padding-top:10px; !important;}	
 
 .sidebarsmalltitle
 {padding:20px 0 5px 0;margin-bottom:5px;width:100%;border-bottom:1px solid;text-align:center;font-size:16px;}
+
+        img.lazy {
+             opacity: 0;
+            } 
+            img.loaded, 
+            img.error {
+				transition: opacity 0.5s;
+			}
+            img.initial,
+			img.loaded,
+			img.error {
+				opacity: 1;
+			}
+
 
 
 /*--upiscustomize--*/
