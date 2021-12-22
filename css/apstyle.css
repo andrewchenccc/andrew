@@ -282,6 +282,11 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 			line-height:0.8em important;
 		}
 
+
+.sidebar img
+{max-width:100%}
+
+/*--upiscustomize--*/
 #main{position:relative;top:0px;}
 #crosscol{
 margin:0px !important;
