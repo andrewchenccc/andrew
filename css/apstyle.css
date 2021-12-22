@@ -286,6 +286,13 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 .sidebar img
 {max-width:100%}
 
+.main-inner
+{padding-top:5px; !important;}	
+
+.sidebarsmalltitle
+{padding:20px 0 5px 0;margin-bottom:5px;width:100%;border-bottom:1px solid;text-align:center;font-size:16px;}
+
+
 /*--upiscustomize--*/
 #main{position:relative;top:0px;}
 #crosscol{
