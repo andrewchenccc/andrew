@@ -132,7 +132,7 @@ border-left: 0px !important;
 #mydrag li:hover, #mydrag li.sfhover {
  position: static;
 }
-
+/*-首頁輪播-*/
 	#hppic a img {
 		border: none;
 	}
@@ -166,6 +166,60 @@ border-left: 0px !important;
 		font-weight: bold;
 		color: #FFD306;
 	}
+/*-首頁輪播end-*/
+/*-mobile首頁輪播-*/
+	#abgneBlock {
+		width: 370px;
+		height: 90px;
+		position: relative;
+		overflow: hidden;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock ul.list {
+		padding: 0 !important;
+		margin: 0 !important;
+		list-style: none;
+		position: absolute;
+		width: 1200px;
+		height: 100%;
+	}
+	#abgneBlock ul.list li {
+		float: left;
+		width: 370px;
+		height: 100%;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock .list img{
+		width: 98%;
+		height: 98%;
+		border: 0px;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	#abgneBlock ul.playerControl {
+		padding: 0 !important;
+		margin: 0 !important;
+		list-style: none;
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+		height: 14px;
+	}
+	#abgneBlock ul.playerControl li {
+		float: left;
+		width: 0px;
+		height: 0px;
+		cursor: pointer;
+		padding: 0 !important;
+		margin: 0 !important;
+		background: url() no-repeat -10px 0;
+	}
+	#abgneBlock ul.playerControl li.current { 
+		background-position: 0 0;
+	}
+/*-mobile首頁輪播-*/
 
 .post-header img {
 max-width:100%; }
@@ -318,7 +372,9 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 
 
 .sidebar img
-{max-width:100%;text-align:center;}
+{max-width:100%;}
+#sidebar-right-1
+{text-align:center;}
 
 .main-inner
 {padding-top:10px; !important;}	
@@ -342,6 +398,7 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 
 
 /*--upiscustomize--*/
+
 #main{position:relative;top:0px;}
 #crosscol{
 margin:0px !important;
