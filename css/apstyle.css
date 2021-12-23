@@ -237,17 +237,6 @@ max-width:100%; }
         min-width: 0;
         width: auto;
       }
-      a.fbss
-		{
-		 color:white;
-		 background-color:#0b5394;
-		 border-radius:5px;
-		}
-	   a:hover.fbss
-		{
-		
-		 background-color:#3d85c6 !important;
-		}
 
 
 	   .myhead, .myhead1, .myheadtrip, .myheadtrip1
@@ -577,7 +566,4 @@ body .main-inner .Blog {
 	
 /* mobile
 ----------------------------------------------- */
-.mobile .widget-content
-{text-align:center  !important;}
-.mobile .navbar
-{display:none  !important;}
+
