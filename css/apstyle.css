@@ -372,7 +372,7 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 
 
 .sidebar img
-{max-width:100%;text-align:center;}
+{max-width:100%}
 
 .main-inner
 {padding-top:10px; !important;}	
@@ -574,3 +574,10 @@ body .main-inner .Blog {
   padding: 0;
   margin-bottom: 1em;
 }
+	
+/* mobile
+----------------------------------------------- */
+.mobile .widget-content
+{text-align:center;}
+.mobile .navbar
+{display:none;}
