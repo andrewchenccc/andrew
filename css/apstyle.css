@@ -578,6 +578,6 @@ body .main-inner .Blog {
 /* mobile
 ----------------------------------------------- */
 .mobile .widget-content
-{text-align:center; !important}
+{text-align:center  !important;}
 .mobile .navbar
-{display:none; !important}
+{display:none  !important;}
