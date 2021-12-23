@@ -133,6 +133,40 @@ border-left: 0px !important;
  position: static;
 }
 
+	#hppic a img {
+		border: none;
+	}
+	#hppic {
+		position: relative;
+		width: 1024px;
+		height: 579px;
+		margin-left:30px;
+        overflow:hidden;
+	}
+	#hppic a.hppiclink {
+		position: absolute;
+	}
+	#hppic .control {
+		position: absolute;
+		right: 45%;
+		bottom: 10px;
+	}
+	#hppic .control a {
+		display: inline-block;
+		padding: 3px;
+		margin: 0 3px;
+		width: 16px;
+		color: #fff;
+		text-align: center;
+		font-size: 14px;
+		text-decoration: none;
+                background-color: rgba(0, 114,227, 0.5);
+	}
+	#hppic .control a.on {
+		font-weight: bold;
+		color: #FFD306;
+	}
+
 .post-header img {
 max-width:100%; }
 
@@ -284,7 +318,7 @@ background:url("https://blogger.googleusercontent.com/img/a/AVvXsEgfjjb0jrQGc2qR
 
 
 .sidebar img
-{max-width:100%}
+{max-width:100%;text-align:center;}
 
 .main-inner
 {padding-top:10px; !important;}	
