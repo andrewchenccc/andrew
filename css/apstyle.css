@@ -1,8 +1,3 @@
-.mobile .post-body img{
-width:100%;
-
-}
-
 .blog-pager-older-link,.blog-pager-newer-link{padding:0px !important;margin:0px !important;width:50px !important;}
 .mobile .blog-pager-older-link{padding:6px !important;position:relative;right:70px;background-color:#dddddd;width:100px !important;}
 .mobile .blog-pager-newer-link{padding:6px !important;background-color:#dddddd;width:100px !important;}
@@ -530,11 +525,8 @@ html body .content-outer {
 
 .post-body {
   position: relative;
-  font-family: Meiryo, "微軟正黑體", "Microsoft JhengHei";
-  line-height: 2.2em;
-  font-size:1.2em;
 } <!--website fontsize -->
-.post-body img.firstimg{margin-bottom:0px}
+
 
 .main-inner .widget .post-body ul {
   padding: 0 2.5em;
